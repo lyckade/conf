@@ -10,16 +10,20 @@ The conf class makes it easy to load and write data to textfiles.
 * **command**: every command begins with a variable name has a = inside a data value and ends with ;
 * **variable types**:
 	* string: is loaded into data["var"]  
-		> stringvar = "Stringvalue";
+> stringvar = "Stringvalue";
+
 	* integer:  is loaded into data["var"]   
-		> integervar = 12;
+> integervar = 12;
+
 	* float:  is loaded into data["var"]   
-		> floatvar = 12.23;
+> floatvar = 12.23;
+
 	* list: is loaded into data["list"]  
-		> listentries[] = "first entry";  
-		> listentries[] = "second entry";
+> listentries[] = "first entry";  
+> listentries[] = "second entry";
+
 	* tuple: is loadet into data["tuple"]   
-		> tuplevar() = (1,2,3);
+> tuplevar() = (1,2,3);
 
 
 
